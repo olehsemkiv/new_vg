@@ -1,0 +1,52 @@
+.section-hero {
+    position: relative;
+    padding: 160px 0 60px;
+    height: 100dvh;
+    position: relative;
+
+    .site-container {
+        height: 100%;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    &__title {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    &__sub-title {
+        text-align: center;
+        flex: 1 1 auto;
+    }
+
+    &__btn {
+        margin-bottom: 60px;
+    }
+
+    &__next-btn {
+        width: 30px;
+        height: 20px;
+        flex-shrink: 0;
+        transition: all 0.4s ease 0s;
+        cursor: pointer;
+
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        @media (min-width: 991px) {
+            &:hover {
+                transform: scale(0.8);
+            }
+        }
+    }
+}

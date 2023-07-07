@@ -1,0 +1,116 @@
+.section-form-1 {
+    padding: 100px 0;
+
+    @media (max-width: 991px) {
+        padding: 70px 0 50px;
+    }
+
+    @media (max-width: 767px) {
+        padding: 30px 0;
+    }
+
+    &__title {
+        margin-bottom: 80px;
+        text-align: center;
+    }
+
+    &__body {
+        display: flex;
+        gap: 100px;
+
+        @media (max-width: 991px) {
+            flex-direction: column;
+            gap: 50px;
+        }
+    }
+
+    &__text-wrapper {
+        width: 30%;
+
+        @media (max-width: 991px) {
+            width: 100%;
+        }
+    }
+
+    &__sub-title {
+        color: #182834;
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 25px;
+
+        @media (max-width: 991px) {
+            font-size: 30px;
+        }
+
+        @media (max-width: 991px) {
+            font-size: 24px;
+        }
+    }
+
+    &__text {
+        color: #29445A;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__form-wrapper {
+        width: 70%;
+
+        @media (max-width: 991px) {
+            width: 100%;
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 25px;
+        row-gap: 35px;
+
+        @media (max-width: 767px) {
+            row-gap: 25px;
+        }
+    }
+
+    &__input-wrapper {
+        width: calc(50% - 13px);
+
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+    }
+
+    &__input-title {
+        color: var(--primary-technical-grey-1, #233443);
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+
+    &__input {
+        width: 100%;
+    }
+
+    &__textarea-wrapper {
+        width: 100%;
+    }
+
+    &__text-area {
+        width: 100%;
+    }
+
+    &__submit-btn {
+        cursor: pointer;
+        background: transparent;
+    }
+
+    &__select{
+        width: 100%;
+    }
+}
